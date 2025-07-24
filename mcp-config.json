@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sql-mcp-server": {
+      "command": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "args": ["c:\\Zips\\Git\\VismaBusinessMcpServer\\bin\\Debug\\net8.0\\SqlMcpServer.dll"],
+      "env": {
+        "DOTNET_ENVIRONMENT": "Production"
+      },
+      "cwd": "c:\\Zips\\Git\\VismaBusinessMcpServer"
+    }
+  }
+}
